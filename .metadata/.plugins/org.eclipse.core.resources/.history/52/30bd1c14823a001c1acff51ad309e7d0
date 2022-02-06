@@ -1,0 +1,21 @@
+package maps;
+import java.util.*;
+//import java.util.HashMap;
+//import java.util.Map;
+
+public class MainClassMap {
+
+	public static void main(String[] args) {
+		
+		Map<String,Integer> numbers = new HashMap<>();
+		
+		numbers.put("one",1);
+		numbers.put("two",2);
+		numbers.put("three",3);
+		System.out.println(numbers.get("three"));
+		System.out.println(numbers.containsKey("four"));
+		System.out.println(numbers);
+		System.out.println(numbers.entrySet());
+	}
+
+}

@@ -1,0 +1,17 @@
+package deque;
+
+import java.util.ArrayDeque;
+
+public class MainClassDeque {
+
+	public static void main(String[] args) {
+		
+		ArrayDeque<Integer> ad = new ArrayDeque<>();
+		
+		ad.addFirst(13);
+		ad.add(17);
+		System.out.println(ad.peek());
+
+	}
+
+}

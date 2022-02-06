@@ -1,0 +1,21 @@
+package operators;
+
+public class LogicalOperators {
+
+	public static void main(String[] args) {
+		
+//		int number = -4;
+//		if (number >= 1 && number <=100) {
+//		System.out.println("number is in the range");
+//		}
+//		
+		int grade = 10;
+		if(!(grade ==10 || grade==12)){
+			System.out.println("you can not give board exams now");
+		}
+		
+		
+
+	}
+
+}
